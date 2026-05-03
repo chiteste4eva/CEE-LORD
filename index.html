@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Toyota Lexus Motors offers inspected Toyota and Lexus used cars with direct WhatsApp, call, and email contact.">
+    <title>Toyota Lexus Motors | Premium Used Cars</title>
+    <link rel="preconnect" href="https://commons.wikimedia.org">
+    <link rel="preconnect" href="https://upload.wikimedia.org">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Toyota Lexus Motors home">
+          <span class="brand-mark">TL</span>
+          <span>
+            <strong>Toyota Lexus Motors</strong>
+            <small>Premium Used Cars</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links">
+          <a href="#inventory">Inventory</a>
+          <a href="#process">How it works</a>
+          <a href="#contact">Contact</a>
+          <a class="nav-cta" href="https://wa.me/15551234567?text=Hello%2C%20I%20am%20interested%20in%20a%20Toyota%20or%20Lexus%20car." target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Toyota%20Camry%20LE%202020.jpg?width=1400" alt="">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Toyota and Lexus only</p>
+          <h1 id="hero-title">Clean used cars, simple direct buying.</h1>
+          <p class="hero-copy">Browse inspected vehicles, compare key details, then contact the seller directly by WhatsApp, phone, or email. No order system. No confusing checkout.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#inventory">Browse cars</a>
+            <a class="button ghost" href="#contact">Talk to us</a>
+          </div>
+          <dl class="hero-stats" aria-label="Business highlights">
+            <div>
+              <dt>2</dt>
+              <dd>Brands</dd>
+            </div>
+            <div>
+              <dt>12</dt>
+              <dd>Point check</dd>
+            </div>
+            <div>
+              <dt>Direct</dt>
+              <dd>Contact</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="brand-strip" aria-label="Brand selection">
+        <button class="brand-pill active" type="button" data-brand-filter="all">All models</button>
+        <button class="brand-pill" type="button" data-brand-filter="Toyota">Toyota</button>
+        <button class="brand-pill" type="button" data-brand-filter="Lexus">Lexus</button>
+      </section>
+
+      <section class="section inventory-section" id="inventory" aria-labelledby="inventory-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Available inventory</p>
+            <h2 id="inventory-title">Ready-to-view Toyota and Lexus cars</h2>
+          </div>
+          <p>Filter by brand, budget, mileage, and model. Every listing includes the details customers ask for before contacting you.</p>
+        </div>
+
+        <form class="filters" id="filters" aria-label="Inventory filters">
+          <label>
+            <span>Search</span>
+            <input id="search" type="search" placeholder="Model, year, feature">
+          </label>
+          <label>
+            <span>Max price</span>
+            <select id="maxPrice">
+              <option value="999999">Any price</option>
+              <option value="17000">Under $17,000</option>
+              <option value="22000">Under $22,000</option>
+              <option value="30000">Under $30,000</option>
+            </select>
+          </label>
+          <label>
+            <span>Max mileage</span>
+            <select id="maxMileage">
+              <option value="999999">Any mileage</option>
+              <option value="35000">Under 35,000 mi</option>
+              <option value="60000">Under 60,000 mi</option>
+              <option value="90000">Under 90,000 mi</option>
+            </select>
+          </label>
+        </form>
+
+        <div class="inventory-grid" id="inventoryGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="section process" id="process" aria-labelledby="process-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Simple flow</p>
+            <h2 id="process-title">From browse to conversation in minutes</h2>
+          </div>
+          <p>The site is intentionally lightweight: customers discover cars, review details, then message you directly so you can close the deal manually.</p>
+        </div>
+        <div class="process-grid">
+          <article>
+            <span>01</span>
+            <h3>Choose a brand</h3>
+            <p>Visitors quickly narrow the catalog to Toyota, Lexus, or all available vehicles.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Review the details</h3>
+            <p>Each listing shows price, mileage, transmission, fuel, condition, location, and photos.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Contact directly</h3>
+            <p>WhatsApp, phone, and email buttons move the customer straight into a real conversation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-band" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact seller</p>
+          <h2 id="contact-title">Interested in one of the cars?</h2>
+          <p>Ask about price, availability, inspection, shipping, or viewing appointments. Replace these demo contact details with your real business number and email in `index.html` and `script.js`.</p>
+        </div>
+        <div class="contact-actions" aria-label="Contact options">
+          <a class="button whatsapp" href="https://wa.me/15551234567?text=Hello%2C%20I%20am%20interested%20in%20one%20of%20your%20cars." target="_blank" rel="noreferrer">Chat on WhatsApp</a>
+          <a class="button phone" href="tel:+15551234567">Call now</a>
+          <a class="button email" href="mailto:sales@example.com?subject=Car%20inquiry">Send email</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p>&copy; <span id="year"></span> Toyota Lexus Motors. Demo inventory and contact details for launch setup.</p>
+        <p class="credits">
+          Vehicle photos via Wikimedia Commons:
+          <a href="https://commons.wikimedia.org/wiki/File:Toyota_Camry_LE_2020.jpg" target="_blank" rel="noreferrer">Camry</a>,
+          <a href="https://commons.wikimedia.org/wiki/File:2019_Toyota_RAV4_LE_front_3.27.19.jpg" target="_blank" rel="noreferrer">RAV4</a>,
+          <a href="https://commons.wikimedia.org/wiki/File:2019_Toyota_Corolla_Icon_Tech_VVT-i_Hybrid_1.8.jpg" target="_blank" rel="noreferrer">Corolla</a>,
+          <a href="https://commons.wikimedia.org/wiki/File:2023_Lexus_RX_350_(front).jpg" target="_blank" rel="noreferrer">RX</a>,
+          <a href="https://commons.wikimedia.org/wiki/File:Lexus_IS_300_(3BA-ASE30-BEZLZ)_front.jpg" target="_blank" rel="noreferrer">IS</a>,
+          <a href="https://commons.wikimedia.org/wiki/File:2019_Lexus_ES_350,_front_11.9.19.jpg" target="_blank" rel="noreferrer">ES</a>.
+        </p>
+      </div>
+      <a class="footer-top" href="#top">Back to top</a>
+    </footer>
+
+    <div class="modal" id="carModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-panel">
+        <button class="modal-close" type="button" aria-label="Close details" data-close-modal>&times;</button>
+        <div class="modal-gallery">
+          <img id="modalImage" alt="">
+        </div>
+        <div class="modal-body">
+          <p class="eyebrow" id="modalBrand"></p>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-price" id="modalPrice"></p>
+          <dl class="detail-list" id="modalDetails"></dl>
+          <p id="modalSummary"></p>
+          <div class="contact-actions compact">
+            <a class="button whatsapp" id="modalWhatsapp" target="_blank" rel="noreferrer">WhatsApp</a>
+            <a class="button phone" id="modalPhone">Call</a>
+            <a class="button email" id="modalEmail">Email</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
