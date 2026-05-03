@@ -1,7 +1,7 @@
 const CONTACT = {
   phoneDisplay: "+1 (202) 465-9573",
   phoneHref: "+12024659573",
-  email: "sales@example.com",
+  email: "chibuzo.joseph@outlook.com",
   whatsapp: "12024659573",
 };
 
