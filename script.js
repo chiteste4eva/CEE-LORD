@@ -1,8 +1,8 @@
 const CONTACT = {
-  phoneDisplay: "+1 (555) 123-4567",
-  phoneHref: "+15551234567",
+  phoneDisplay: "+1 (202) 465-9573",
+  phoneHref: "+12024659573",
   email: "sales@example.com",
-  whatsapp: "15551234567",
+  whatsapp: "12024659573",
 };
 
 const cars = [
